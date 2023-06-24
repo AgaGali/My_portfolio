@@ -20,6 +20,7 @@ h6 {
 }
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 h2 {
   font-size: 64px;
@@ -78,5 +79,17 @@ i {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 60px 20px;
+  }
+  .hero h2 {
+    line-height: 1.5;
   }
 }
