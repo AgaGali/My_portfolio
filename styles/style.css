@@ -115,6 +115,33 @@ i {
 .project-description {
   padding: 120px 70px;
 }
+.logo{
+  max-height: 40px;
+}
+nav{
+  padding: 20px;
+}
+nav a{
+  text-decoration: none;
+  color:#272142;
+  transition:all 100ms ease-in-out;
+  ;
+}
+nav a:hover,
+nav li.active a{
+  color:var(--branding-color);
+}
+nav li{
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left:10px;
+}
+
+nav ul{
+  margin:0;
+  padding:0;
+}
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
@@ -135,5 +162,11 @@ i {
   }
   .hero h2 {
     line-height: 1.5;
+  }
+  nav a{
+    font-size: 14px;
+  }
+  nav li{
+    margin-left: 5px;
   }
 }
