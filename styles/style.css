@@ -37,6 +37,9 @@ p {
 i {
   font-size: 48px;
 }
+img{
+  border-radius:18px;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
